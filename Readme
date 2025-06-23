@@ -1,0 +1,57 @@
+# OroLight 👄🔬
+
+**OroLight** is an affordable, portable device designed to detect mouth ulcers and assess their potential to progress into cancerous stages. Built to improve early detection in low-resource settings, OroLight empowers users and healthcare professionals with quick, reliable diagnosis support.
+
+---
+
+## 🩺 Problem Statement
+
+Mouth ulcers are often ignored, but some types can develop into **oral cancer** if not detected and treated early. In many rural and underserved regions, lack of access to diagnosis tools leads to late detection and poor outcomes.
+
+---
+
+## 🎯 Our Solution
+
+OroLight is a compact diagnostic kit that uses **[mention your technology — e.g., image processing, sensors, ML model]** to identify the stage of oral ulcers and classify whether they are:
+- Benign
+- Pre-cancerous
+- Cancer-risk
+
+---
+
+## 🔬 Features
+
+- 📷 Optical scanning of the mouth region
+- 🧠 Stage prediction using trained ML/AI model
+- 🪶 Lightweight and USB-operated hardware
+- 📱 Companion web for displaying results
+
+---
+
+
+## 🛠️ Technologies Used
+
+### Hardware:
+- Camera module 
+- LED Light 
+- Motor with container
+- 3D-printed or acrylic casing
+
+### Software:
+- Python (OpenCV, TensorFlow/PyTorch)
+- Flask backend 
+- Web interface (HTML/CSS/JavaScript/React)
+
+---
+
+## 🧪 How It Works
+
+1. Place the OroLight device near the patient's mouth
+2. Capture an image using the integrated camera
+3. Process the image to identify ulcer characteristics
+4. Predict the stage using trained ML model
+5. Display result in the connected webpage
+
+---
+
+
