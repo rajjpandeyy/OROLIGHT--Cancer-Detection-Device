@@ -12,7 +12,7 @@ Mouth ulcers are often ignored, but some types can develop into **oral cancer** 
 
 ## 🎯 Our Solution
 
-OroLight is a compact diagnostic kit that uses **[mention your technology — e.g., image processing, sensors, ML model]** to identify the stage of oral ulcers and classify whether they are:
+OroLight is a compact diagnostic kit that uses **image processing, hardware sensors, and a trained ML model** to identify the stage of oral ulcers and classify whether they are:
 - Benign
 - Pre-cancerous
 - Cancer-risk
@@ -22,36 +22,47 @@ OroLight is a compact diagnostic kit that uses **[mention your technology — e.
 ## 🔬 Features
 
 - 📷 Optical scanning of the mouth region
-- 🧠 Stage prediction using trained ML/AI model
+- 🧠 Stage prediction using a trained ML/AI model
 - 🪶 Lightweight and USB-operated hardware
-- 📱 Companion web for displaying results
+- 📱 Companion web interface for real-time results display
 
 ---
-
 
 ## 🛠️ Technologies Used
 
 ### Hardware:
-- Camera module 
-- LED Light 
-- Motor with container
-- 3D-printed or acrylic casing
+- Camera module  
+- LED Light for illumination  
+- Motor with medicine container  
+- 3D-printed or acrylic casing  
 
 ### Software:
 - Python (OpenCV, TensorFlow/PyTorch)
-- Flask backend 
-- Web interface (HTML/CSS/JavaScript/React)
+- Flask backend (API for prediction)
+- Web interface: HTML, CSS, JavaScript, React
 
 ---
 
 ## 🧪 How It Works
 
-1. Place the OroLight device near the patient's mouth
-2. Capture an image using the integrated camera
-3. Process the image to identify ulcer characteristics
-4. Predict the stage using trained ML model
-5. Display result in the connected webpage
+1. Place the OroLight device near the patient’s mouth
+2. Capture a high-quality image using the integrated camera
+3. Process the image to extract ulcer characteristics using OpenCV
+4. Feed the processed image to a pre-trained ML model
+5. Predict the stage and display the result on a connected web interface
 
 ---
+
+## 📸 Images
+
+### 🔹 Device Image
+![Device](images//OroLight Images
+/8edc5ea7-3ee3-4778-8b0d-25c75e449494.jpg)
+
+![Prediction Result](images/result1.png)
+
+/OroLight Images
+/8edc5ea7-3ee3-4778-8b0d-25c75e449494.jpg
+
 
 
