@@ -1,68 +1,71 @@
 # OroLight 👄🔬
 
-**OroLight** is an affordable, portable device designed to detect mouth ulcers and assess their potential to progress into cancerous stages. Built to improve early detection in low-resource settings, OroLight empowers users and healthcare professionals with quick, reliable diagnosis support.
+[![Project Status: In Development](https://img.shields.io/badge/Status-In%20Development-blue.svg)](https://github.com/your-username/orolight)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+**An affordable, AI-powered device for the early detection of oral cancer.**
+
+OroLight is a portable diagnostic tool designed to analyze mouth ulcers and assess their potential to progress into cancerous stages. By combining hardware, computer vision, and machine learning, we aim to make early detection accessible and reliable, especially in low-resource settings.
 
 ---
 
-## 🩺 Problem Statement
+<p align="center">
+  <img src="docs/images/orolight_device.jpg" alt="The OroLight Device" width="700"/>
+  <em>The OroLight Diagnostic Device. (Replace with your actual image)</em>
+</p>
 
-Mouth ulcers are often ignored, but some types can develop into **oral cancer** if not detected and treated early. In many rural and underserved regions, lack of access to diagnosis tools leads to late detection and poor outcomes.
+## The Challenge
 
----
+The silent progression of mouth ulcers into **oral cancer** is a critical health issue, particularly in underserved regions. Late detection, often due to a lack of accessible diagnostic tools, dramatically reduces patient survival rates. A gap exists for a low-cost, easy-to-use tool that can provide immediate, preliminary diagnosis.
 
-## 🎯 Our Solution
+## ✨ Our Solution
 
-OroLight is a compact diagnostic kit that uses **image processing, hardware sensors, and a trained ML model** to identify the stage of oral ulcers and classify whether they are:
-- Benign
-- Pre-cancerous
-- Cancer-risk
+OroLight bridges this gap with a compact, intelligent kit that analyzes oral lesions. Using a high-resolution camera and a custom-trained machine learning model, the device classifies ulcers into one of three categories, providing crucial information for follow-up care:
+- **Benign:** Non-threatening ulcers.
+- **Pre-Cancerous:** Lesions with potential to become malignant.
+- **High-Risk/Cancerous:** Ulcers requiring immediate medical attention.
 
----
+## 📋 Key Features
 
-## 🔬 Features
+| Feature | Description |
+| :--- | :--- |
+| **Portable Diagnostics** | A lightweight, USB-powered design makes it perfect for use in clinics or mobile health camps. |
+| **AI-Powered Analysis** | Utilizes a trained Machine Learning model to analyze ulcer images and predict their malignancy risk in real-time. |
+| **Instant Feedback** | A companion web interface displays diagnostic results immediately, aiding quick decision-making for healthcare workers. |
+| **Integrated Illumination** | Built-in LED provides consistent, high-quality lighting for accurate and reliable image capture. |
 
-- 📷 Optical scanning of the mouth region
-- 🧠 Stage prediction using a trained ML/AI model
-- 🪶 Lightweight and USB-operated hardware
-- 📱 Companion web interface for real-time results display
+## ⚙️ How It Works
 
----
+The diagnostic process is designed to be simple and fast:
 
-## 🛠️ Technologies Used
+1.  **📸 Capture:** The device is placed near the patient's mouth, and a high-resolution image of the ulcer is captured.
+2.  **⚙️ Process:** The image is automatically processed using **OpenCV** to enhance features and isolate the region of interest.
+3.  **🧠 Analyze:** The processed image is fed into our pre-trained **ML model** to determine the ulcer's characteristics and stage.
+4.  **📊 Display:** The prediction result (**Benign**, **Pre-Cancerous**, or **High-Risk**) is instantly sent to and displayed on the connected web interface.
 
-### Hardware:
-- Camera module  
-- LED Light for illumination  
-- Motor with medicine container  
-- 3D-printed or acrylic casing  
+## 🛠️ Technology Stack
 
-### Software:
-- Python (OpenCV, TensorFlow/PyTorch)
-- Flask backend (API for prediction)
-- Web interface: HTML, CSS, JavaScript, React
+| Component | Technologies Used |
+| :--- | :--- |
+| **Hardware** | • Raspberry Pi / Microcontroller<br/>• High-Resolution Camera Module<br/>• White LED Ring for Illumination<br/>• 3D-Printed Custom Casing |
+| **AI & Backend** | • **Python**<br/>• **OpenCV** for Image Processing<br/>• **TensorFlow / PyTorch** for the ML Model<br/>• **Flask** for the prediction API |
+| **Frontend** | • **React / HTML5 & CSS3**<br/>• **JavaScript** with Fetch API |
 
----
+## 📸 Project Gallery
 
-## 🧪 How It Works
+<p align="center">
+  <strong>The OroLight Prediction Interface</strong><br/><br/>
+  <img src="docs/images/prediction_interface.png" alt="Prediction Result Interface" width="700">
+  <em>(Replace with your screenshot of the web UI showing a result)</em>
+</p>
 
-1. Place the OroLight device near the patient’s mouth
-2. Capture a high-quality image using the integrated camera
-3. Process the image to extract ulcer characteristics using OpenCV
-4. Feed the processed image to a pre-trained ML model
-5. Predict the stage and display the result on a connected web interface
+## 🤝 Contributing
 
----
+This project is driven by the mission to save lives through technology. Contributions are welcome! Please fork the repository and open a pull request for any improvements or features. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📸 Images
+## 📄 License
 
-### 🔹 Device Image
-![Device](images//OroLight Images
-/8edc5ea7-3ee3-4778-8b0d-25c75e449494.jpg)
-
-![Prediction Result](images/result1.png)
-
-/OroLight Images
-/8edc5ea7-3ee3-4778-8b0d-25c75e449494.jpg
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 
 
